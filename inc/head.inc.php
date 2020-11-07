@@ -1,12 +1,11 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset='utf-8'>
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
-	<title>Office Blankets
+	<title>Dick Bombs
 	</title>
 	<!--CSS-->
 	<!--Bootstrap-->
@@ -28,7 +27,7 @@
 					<span class='icon-bar'></span>
 					<span class='icon-bar'></span>
 				</button>
-				<a class='navbar-brand' href='index.php'>Office Blankets Home</a>
+				<a class='navbar-brand' href='index.php'>Dick Bomb Home</a>
 			</header>
 			<div class='collapse navbar-collapse' id='myNavbar'>
 				<ul class='nav navbar-nav'>
