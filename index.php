@@ -47,7 +47,7 @@
             <div class="col-md-9"><!--PRIMARY INFORMATION ON PAGE - UPGRADE TO HTML5 -->
                 <div class="row carousel-holder">
                     <div class="col-md-12">   <!--FIX: NOT class='carousel-slide'-->
-                        <div id="carousel" class='carousel-slide' data-ride='carousel'>
+                        <div id="carousel" class='carousel' data-ride='carousel'>
                             <ol class='carousel-indicators'>
                                 <li data-target='#carousel' data-slide-to='0' class='active'></li>
                                 <li data-target='#carousel' data-slide-to='1' class='active'></li>
@@ -56,13 +56,13 @@
 
                             <div class='carousel-inner'><!-- IMG SOURCE FOR SLIDER -->
                                 <div class='item active'>
-                                    <img class='slide-image' src='img/car1.jpg' alt=''>
+                                    <img class='slide-image' src='img\dickpics.jpg' alt=''>
                                 </div>
                                 <div class='item'>
-                                    <img class='slide-image' src='img/car2.jpg' alt=''>
+                                    <img class='slide-image' src='img\milwaukee.jpg' alt=''>
                                 </div>
                                 <div class='item'>
-                                    <img class='slide-image' src='img/car3.jpg' alt=''>
+                                    <img class='slide-image' src='img\dickpics.jpg' alt=''>
                                 </div>
                             </div><!--ACTION FOR SLIDER -->
                             <a class='left carousel-control' href='#carousel' data-slide='prev'>
@@ -77,6 +77,15 @@
                 </div>
 
                 <div class="row">
+                    <!-- <?php
+                        // include_once "inc/template.php";
+                        // $thumbnail = new Template("product_thumbnail.html",$contentExample);
+                        // for($i=0;$i<6;$i++){
+                        //     echo "<div class='col-sm-4 col-lg-4 col-md-4'>";
+                        //     echo $thumbnail->output();
+                        //     echo "</div>";
+                        // }
+                    ?> -->
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
                             <img src="img\dickpics.jpg" alt="">
@@ -235,6 +244,9 @@
             </div>
         </div>  
     </main>
+
+    <!--Custom JS-->
+    <script src= "js\dynamicimageloading.js"></script>
 	<!--FOOTER-->
 	<?php
 		include "inc/foot.inc.php";
